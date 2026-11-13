@@ -14,7 +14,7 @@ class ModelBoundary extends Component<{ children: ReactNode; fallback: ReactNode
   render() { return this.state.failed ? this.props.fallback : this.props.children; }
 }
 const PENDANT_CHAIN_URL = "/models/charms/day-xich-3-khoen.glb";
-const PENDANT_CHAIN_WIDTH = 0.17;
+const PENDANT_CHAIN_WIDTH = 0.22;
 const CHAIN_CORD_OVERLAP = -0.06;
 export const PENDANT_CHAIN_DROP_DISTANCE = 0.38 * (PENDANT_CHAIN_WIDTH / 0.2);
 export const PENDANT_CHAIN_ATTACHMENT_Y = -PENDANT_CHAIN_DROP_DISTANCE + CHAIN_CORD_OVERLAP;
